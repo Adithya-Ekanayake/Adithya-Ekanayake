@@ -1,16 +1,31 @@
-## Hi there 👋
+# Hi, I'm Adithya Ekanayake 👋
 
-<!--
-**Adithya-Ekanayake/Adithya-Ekanayake** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## About Me
+I'm a student of Sabaragamuwa University of Sri Lanka.  
+I enjoy creating projects, learning new technologies, and contributing to open-source.  
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## GitHub Stats
+![Adithya's GitHub stats](https://github-readme-stats.vercel.app/api?username=Adithya-Ekanayake&show_icons=true&theme=default)
+
+## Top Languages
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Adithya-Ekanayake&layout=compact&theme=default)
+
+---
+
+## Projects
+Here are some of my notable projects:
+
+- [Project 1](https://github.com/Adithya-Ekanayake/Coasty-Lanka) – A website showcasing popular beaches in Sri Lanka with images and descriptions
+ 
+---
+
+## Contact Me
+- **Email:** adithyaekanayake2@gmail.com  
+- **GitHub:** [Adithya-Ekanayake](https://github.com/Adithya-Ekanayake)  
+- **LinkedIn:** [Adithya Ekanayake](https://www.linkedin.com/in/adithya-ekanayake-b38267349/)  
+
+---
+
+⭐ Feel free to explore my repositories and projects!  
