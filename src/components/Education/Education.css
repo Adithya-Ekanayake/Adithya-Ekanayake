@@ -1,0 +1,131 @@
+.education-section {
+  background-color: var(--bg);
+}
+
+.education-card {
+  padding: 2.5rem;
+  background-color: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+}
+
+.education-grid {
+  display: grid;
+  grid-template-columns: 1fr 1.6fr;
+  gap: 3rem;
+}
+
+@media (max-width: 900px) {
+  .education-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+}
+
+.education-main {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.25rem;
+  border-right: 1px solid var(--border);
+  padding-right: 2rem;
+}
+
+@media (max-width: 900px) {
+  .education-main {
+    border-right: none;
+    border-bottom: 1px solid var(--border);
+    padding-right: 0;
+    padding-bottom: 1.5rem;
+  }
+}
+
+.edu-icon-badge {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  border-radius: 14px;
+  background-color: var(--accent-alpha);
+  color: var(--accent);
+  font-size: 1.75rem;
+  box-shadow: 0 4px 16px var(--accent-glow);
+}
+
+.edu-title-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.edu-degree {
+  font-size: 1.4rem;
+  margin: 0.5rem 0 0.25rem;
+}
+
+.edu-institution {
+  font-size: 1.1rem;
+  color: var(--accent);
+  font-weight: 600;
+  margin-bottom: 0.2rem;
+}
+
+.edu-faculty {
+  font-size: 0.95rem;
+  color: var(--text-muted);
+  margin-bottom: 0.5rem;
+}
+
+.edu-location {
+  font-size: 0.85rem;
+  color: var(--text-dim);
+}
+
+.edu-desc {
+  font-size: 1rem;
+  color: var(--text-muted);
+  line-height: 1.6;
+  margin-bottom: 1.75rem;
+}
+
+.edu-section-block {
+  margin-bottom: 1.5rem;
+}
+
+.block-title {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.85rem;
+  display: flex;
+  align-items: center;
+}
+
+.subjects-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.subject-chip {
+  padding: 0.35rem 0.75rem;
+  border-radius: 6px;
+  background-color: var(--bg);
+  border: 1px solid var(--border);
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+.achievements-list {
+  list-style-type: disc;
+  padding-left: 1.25rem;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
+
+.achievements-list li {
+  margin-bottom: 0.4rem;
+}

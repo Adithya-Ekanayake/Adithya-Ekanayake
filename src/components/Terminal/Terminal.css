@@ -1,0 +1,150 @@
+.terminal-section {
+  background-color: var(--bg);
+}
+
+.terminal-window {
+  padding: 0;
+  overflow: hidden;
+  border-radius: 12px;
+  background-color: var(--code-bg);
+  border: 1px solid var(--border);
+  box-shadow: var(--card-shadow);
+}
+
+.terminal-topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.75rem 1.25rem;
+  background-color: var(--surface);
+  border-bottom: 1px solid var(--border);
+}
+
+.window-dots {
+  display: flex;
+  align-items: center;
+  gap: 0.45rem;
+}
+
+.window-dots .dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+}
+
+.dot-red { background-color: #FF5F56; }
+.dot-yellow { background-color: #FFBD2E; }
+.dot-green { background-color: #27C93F; }
+
+.terminal-title {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  font-weight: 500;
+}
+
+.clear-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  transition: color 0.2s ease;
+}
+
+.clear-btn:hover {
+  color: var(--error);
+}
+
+.quick-command-bar {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.6rem 1.25rem;
+  background-color: rgba(255, 255, 255, 0.02);
+  border-bottom: 1px solid var(--border);
+  flex-wrap: wrap;
+}
+
+.quick-label {
+  font-size: 0.78rem;
+  color: var(--text-dim);
+}
+
+.quick-cmd-chip {
+  padding: 0.15rem 0.5rem;
+  border-radius: 4px;
+  background-color: var(--surface);
+  border: 1px solid var(--border);
+  color: var(--accent);
+  font-size: 0.75rem;
+  transition: all 0.2s ease;
+}
+
+.quick-cmd-chip:hover {
+  background-color: var(--accent-alpha);
+  border-color: var(--accent);
+}
+
+.terminal-screen {
+  padding: 1.25rem;
+  min-height: 260px;
+  max-height: 420px;
+  overflow-y: auto;
+  font-size: 0.88rem;
+  line-height: 1.5;
+}
+
+.terminal-line {
+  margin-bottom: 0.6rem;
+}
+
+.prompt-prefix {
+  color: var(--text-muted);
+}
+
+.prompt-user {
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.prompt-dir {
+  color: #F2B84B;
+}
+
+.prompt-cmd {
+  color: var(--text-primary);
+  font-weight: 600;
+}
+
+.output-text {
+  color: var(--text-muted);
+  white-space: pre-wrap;
+  word-break: break-word;
+  font-family: inherit;
+}
+
+.terminal-form {
+  display: flex;
+  align-items: center;
+  margin-top: 0.5rem;
+}
+
+.terminal-input {
+  flex-grow: 1;
+  background: transparent;
+  border: none;
+  color: var(--text-primary);
+  font-size: 0.88rem;
+  outline: none;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
