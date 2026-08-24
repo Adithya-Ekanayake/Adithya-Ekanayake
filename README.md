@@ -1,4 +1,4 @@
-# Adithya's Portfolio
+# ADITHYA EKANAYAKE
 
 A modern, interactive personal portfolio website built with React, featuring a dark/light theme toggle, command palette, and sections showcasing skills, projects, experience, and more.
 
