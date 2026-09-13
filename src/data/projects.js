@@ -208,5 +208,45 @@ year: 2026,
     featured: true,
     imageBg: 'linear-gradient(135deg, #14532D 0%, #052E16 100%)',
     accentColor: '#4ADE80'
+  },
+  {
+    id: 'supplier-registration-system',
+    slug: 'supplier-registration-system',
+    title: 'Supplier Registration System',
+    tagline: 'Supplier Onboarding & Management Platform',
+    description: 'A web application for streamlining supplier registration, validation, and information management through a structured digital workflow.',
+    problem: 'Manual supplier onboarding makes it difficult to collect complete information, validate submissions, and keep supplier records consistent.',
+    solution: 'Built a responsive registration workflow that guides suppliers through form submission while giving administrators a clearer way to review and manage supplier data.',
+    keyFeatures: [
+      'Structured supplier registration and profile management',
+      'Form validation for complete and consistent submissions',
+      'Responsive interface for suppliers and administrators',
+      'Centralized workflow for reviewing supplier information'
+    ],
+    technologies: ['React', 'Node.js', 'SQLite', 'JavaScript', 'HTML5', 'CSS3'],
+    architecture: [
+      { step: 'Registration UI', description: 'Responsive React forms for collecting supplier and business information' },
+      { step: 'Validation Layer', description: 'Client and server validation for reliable supplier submissions' },
+      { step: 'API Layer', description: 'Node.js service handling registration and supplier record operations' },
+      { step: 'Data Store', description: 'SQLite persistence for supplier profiles and registration status' }
+    ],
+    challenges: [
+      'Designing a registration flow that stays clear as supplier requirements grow',
+      'Keeping validation and stored supplier data consistent across the workflow'
+    ],
+    lessonsLearned: [
+      'Well-structured forms reduce friction and improve data quality at the source',
+      'Separating the interface, API, and data layers makes future workflow changes easier'
+    ],
+    futureImprovements: [
+      'Add role-based approval and supplier status tracking',
+      'Add document uploads, notifications, and audit history'
+    ],
+    githubUrl: 'https://github.com/Adithya-Ekanayake/Supplier-Registration-System',
+    year: 2026,
+    category: 'Full Stack',
+    featured: true,
+    imageBg: 'linear-gradient(135deg, #7C2D12 0%, #1C1917 100%)',
+    accentColor: '#FB923C'
   }
 ];
