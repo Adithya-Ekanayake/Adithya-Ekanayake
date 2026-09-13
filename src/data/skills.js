@@ -153,7 +153,7 @@ export const skills = [
     category: 'Backend',
     icon: 'FaNodeJs',
     description: 'Event-driven asynchronous runtime, RESTful API architecture, package management with NPM.',
-    relatedProjects: ['MoodCast', 'EduConnect', 'Campus Marketplace', 'Supplier Registration System']
+    relatedProjects: ['MoodCast', 'EduConnect', 'Supplier Registration System']
   },
   {
     id: 'express',
@@ -161,7 +161,7 @@ export const skills = [
     category: 'Backend',
     icon: 'SiExpress',
     description: 'REST API routing, middleware integration, JSON request parsing, and error handling.',
-    relatedProjects: ['MoodCast', 'EduConnect', 'Campus Marketplace', 'Supplier Registration System']
+    relatedProjects: ['MoodCast', 'EduConnect', 'Supplier Registration System']
   },
 
   // AI & ML
@@ -171,7 +171,7 @@ export const skills = [
     category: 'AI & ML',
     icon: 'FaBrain',
     description: 'LLM API integration, prompt engineering, structured responses, AI-powered features, and connecting AI services with web applications.',
-    relatedProjects: ['MoodCast', 'EduConnect', 'Campus Marketplace', 'Supplier Registration System']
+    relatedProjects: ['MoodCast', 'EduConnect']
   },
 
   // Database
@@ -181,7 +181,7 @@ export const skills = [
     category: 'Database',
     icon: 'SiMysql',
     description: 'Relational database modeling, SQL queries, table indexes, join operations, and schema normalization.',
-    relatedProjects: ['MoodCast', 'EduConnect', 'Campus Marketplace', 'Supplier Registration System']
+    relatedProjects: ['Campus Marketplace', 'ShopSphere 360']
   },
 
   // Tools
@@ -215,7 +215,7 @@ export const skills = [
     category: 'Tools',
     icon: 'FaFigma',
     description: 'UI/UX wireframing, component design systems, prototyping, and visual layout planning.',
-    relatedProjects: ['MoodCast', 'EduConnect', 'Campus Marketplace', 'Supplier Registration System']
+    relatedProjects: ['MoodCast', 'EduConnect', 'Supplier Registration System']
   },
   {
     id: 'postman',
