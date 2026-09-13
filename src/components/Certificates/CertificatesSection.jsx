@@ -12,7 +12,7 @@ export default function CertificatesSection() {
     <section id="certificates" className="section certificates-section">
       <div className="container">
         <div className="section-header">
-          <span className="section-tag">// 06. CERTIFICATIONS</span>
+          <span className="section-tag">{'// 06. CERTIFICATIONS'}</span>
           <h2 className="section-title">Verified Qualifications</h2>
           <p className="section-subtitle">
             Professional certifications and technical credentials validating web development, JavaScript algorithms, and version control expertise.

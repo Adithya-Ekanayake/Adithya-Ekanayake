@@ -29,7 +29,7 @@ export default function ProjectsSection({ isFullPage = false }) {
     <section id="projects" className="section projects-section">
       <div className="container">
         <div className="section-header">
-          <span className="section-tag">// 03. FEATURED WORK</span>
+          <span className="section-tag">{'// 03. FEATURED WORK'}</span>
           <h2 className="section-title">Software Projects & Case Studies</h2>
           <p className="section-subtitle">
             A showcase of web applications, academic tools, and software solutions engineered with React, JavaScript, and modern web tech.

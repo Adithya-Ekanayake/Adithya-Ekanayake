@@ -57,7 +57,7 @@ export default function Skills() {
       <div className="container">
         {/* Section Header */}
         <div className="section-header">
-          <span className="section-tag">// 02. SKILLS & TECHNOLOGIES</span>
+          <span className="section-tag">{'// 02. SKILLS & TECHNOLOGIES'}</span>
           <h2 className="section-title">Technical Expertise</h2>
           <p className="section-subtitle">
             Tools, frameworks, and technologies I use to design, develop, and deploy software.

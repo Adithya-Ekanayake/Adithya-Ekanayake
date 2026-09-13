@@ -157,7 +157,7 @@ Primary Language: JavaScript / React`
     <section id="terminal" className="section terminal-section">
       <div className="container">
         <div className="section-header">
-          <span className="section-tag">// 08. INTERACTIVE CONSOLE</span>
+          <span className="section-tag">{'// 08. INTERACTIVE CONSOLE'}</span>
           <h2 className="section-title">Developer Terminal Playground</h2>
           <p className="section-subtitle">
             An interactive command-line interface allowing quick query of my developer profile, skills, and projects.

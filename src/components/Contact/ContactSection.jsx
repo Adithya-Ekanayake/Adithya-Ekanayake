@@ -52,7 +52,7 @@ export default function ContactSection() {
     <section id="contact" className="section contact-section">
       <div className="container">
         <div className="section-header">
-          <span className="section-tag">// 10. GET IN TOUCH</span>
+          <span className="section-tag">{'// 10. GET IN TOUCH'}</span>
           <h2 className="section-title">Let's Connect & Build</h2>
           <p className="section-subtitle">
             Whether you have a question, internship opportunity, software project idea, or just want to connect, feel free to drop a message!

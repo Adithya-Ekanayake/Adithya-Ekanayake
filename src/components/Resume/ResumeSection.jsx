@@ -18,7 +18,7 @@ export default function ResumeSection() {
         >
           <div className="resume-grid">
             <div className="resume-text-content">
-              <span className="section-tag">// 09. RESUME & CV</span>
+              <span className="section-tag">{'// 09. RESUME & CV'}</span>
               <h2 className="resume-headline">Want to know more about my work?</h2>
               <p className="resume-subtext">
                 Explore a concise profile of my academic journey, practical development work, technical toolkit, and continued growth toward a career in software engineering.

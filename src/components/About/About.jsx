@@ -36,7 +36,7 @@ export default function About() {
     <section id="about" className="section about-section">
       <div className="container">
         <div className="section-header">
-          <span className="section-tag">// 01. ABOUT ME</span>
+          <span className="section-tag">{'// 01. ABOUT ME'}</span>
           <h2 className="section-title">Engineering Mindset & Growth</h2>
           <p className="section-subtitle">
             A snapshot of my academic background, technical focus, and software development journey.

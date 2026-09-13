@@ -9,7 +9,7 @@ export default function EducationSection() {
     <section id="education" className="section education-section">
       <div className="container">
         <div className="section-header">
-          <span className="section-tag">// 05. ACADEMIC BACKGROUND</span>
+          <span className="section-tag">{'// 05. ACADEMIC BACKGROUND'}</span>
           <h2 className="section-title">Education & Foundation</h2>
           <p className="section-subtitle">
             Formal university education building computer science fundamentals and software engineering domain knowledge.

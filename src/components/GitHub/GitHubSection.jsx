@@ -33,7 +33,7 @@ export default function GitHubSection() {
     <section id="github" className="section github-section">
       <div className="container">
         <div className="section-header">
-          <span className="section-tag">// 07. GITHUB METRICS</span>
+          <span className="section-tag">{'// 07. GITHUB METRICS'}</span>
           <h2 className="section-title">Open Source & Activity</h2>
           <p className="section-subtitle">
             Live GitHub REST API statistics, repository metrics, and code activity breakdown.
@@ -82,7 +82,7 @@ export default function GitHubSection() {
 
         {languages && languages.length > 0 && (
           <div className="languages-card card">
-            <h3 className="card-inner-title font-mono">// Primary Languages</h3>
+            <h3 className="card-inner-title font-mono">{'// Primary Languages'}</h3>
             <div className="language-bar">
               {languages.map((lang) => (
                 <div
@@ -105,7 +105,7 @@ export default function GitHubSection() {
           </div>
         )}
 
-        <h3 className="section-subheading font-mono">// Featured GitHub Repositories</h3>
+        <h3 className="section-subheading font-mono">{'// Featured GitHub Repositories'}</h3>
         <div className="repos-grid">
           {repos?.map((repo, idx) => (
             <motion.div

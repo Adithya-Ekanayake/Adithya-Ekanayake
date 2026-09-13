@@ -9,7 +9,7 @@ export default function ExperienceTimeline() {
     <section id="experience" className="section experience-section">
       <div className="container">
         <div className="section-header">
-          <span className="section-tag">// 04. DEVELOPER JOURNEY</span>
+          <span className="section-tag">{'// 04. DEVELOPER JOURNEY'}</span>
           <h2 className="section-title">Timeline & Milestones</h2>
           <p className="section-subtitle">
             My growth trajectory as an Information Systems undergraduate and aspiring software engineer from 2023 to 2026.
