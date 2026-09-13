@@ -9,7 +9,7 @@ export default function ProjectsSection({ isFullPage = false }) {
   const [activeCategory, setActiveCategory] = useState('All');
   const [searchQuery, setSearchQuery] = useState('');
 
-  const categories = ['All', 'React', 'JavaScript', 'Web', 'Academic', 'Full Stack'];
+  const categories = ['All', 'React', 'JavaScript', 'Web', 'Academic', 'Full Stack', 'Data & Analytics'];
 
   const displayedProjects = isFullPage
     ? projects

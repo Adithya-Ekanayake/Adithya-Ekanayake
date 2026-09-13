@@ -33,7 +33,7 @@ export const projects = [
       'Integrate WebRTC video call links for virtual peer study rooms',
       'Add automated calendar sync with Google Calendar'
     ],
-    githubUrl: 'https://github.com/AdithyaEkanayake/educonnect',
+    githubUrl: 'https://github.com/Adithya-Ekanayake/educonnect',
     liveDemoUrl: 'https://educonnect-demo.vercel.app',
 year: 2026,
     category: 'Full Stack',
@@ -80,12 +80,133 @@ year: 2026,
       'Add calendar sync for scheduled wellness activities',
       'Implement user authentication for cross-device progress tracking'
     ],
-    githubUrl: 'https://github.com/AdithyaEkanayake/MoodCast',
+    githubUrl: 'https://github.com/Adithya-Ekanayake/MoodCast',
     liveDemoUrl: 'https://lnkd.in/p/g-TUfPqu',
     year: 2026,
     category: 'React',
     featured: true,
     imageBg: 'linear-gradient(135deg, #1E293B 0%, #0F172A 100%)',
     accentColor: '#5B6EF5'
+  },
+  {
+    id: 'campus-marketplace',
+    slug: 'campus-marketplace',
+    title: 'Campus Marketplace',
+    tagline: 'Student Marketplace & Tutoring Board',
+    description: 'A full-stack platform for university students to buy and sell academic goods, find tutoring help, and communicate securely.',
+    problem: 'Students need one trusted place to exchange textbooks, notes, equipment, and academic support within their university community.',
+    solution: 'Built a Next.js marketplace with authenticated listings, multi-image uploads, messaging, email verification, and a threaded tutoring board.',
+    keyFeatures: [
+      'Searchable listings with category filters and multi-image uploads',
+      'Authenticated buyer and seller messaging with ownership checks',
+      'Tutoring requests with threaded responses',
+      'Email verification and sold-listing lifecycle management'
+    ],
+    technologies: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Prisma', 'NextAuth', 'MySQL', 'SQLite'],
+    architecture: [
+      { step: 'App Router', description: 'Next.js App Router powering server-rendered pages and route handlers' },
+      { step: 'Authentication', description: 'NextAuth credentials flow with verified users and protected actions' },
+      { step: 'Data Layer', description: 'Prisma models shared across SQLite development and MySQL production' },
+      { step: 'Media & Messaging', description: 'UploadThing image storage and secure listing conversation routes' }
+    ],
+    challenges: [
+      'Protecting listing, messaging, and tutoring mutations with server-side ownership checks',
+      'Supporting a smooth image upload and gallery experience for marketplace listings'
+    ],
+    lessonsLearned: [
+      'Server-side authorization is essential for trustworthy marketplace workflows',
+      'A shared schema makes local development and production database deployment easier to maintain'
+    ],
+    futureImprovements: [
+      'Add moderation and reporting workflows for community safety',
+      'Add saved listings and push notifications for replies'
+    ],
+    githubUrl: 'https://github.com/Adithya-Ekanayake/Campus-marketplace',
+    year: 2026,
+    category: 'Full Stack',
+    featured: true,
+    imageBg: 'linear-gradient(135deg, #164E63 0%, #0F172A 100%)',
+    accentColor: '#22D3EE'
+  },
+  {
+    id: 'shopsphere-360',
+    slug: 'shopsphere-360',
+    title: 'ShopSphere 360',
+    tagline: 'Business Intelligence & Customer Analytics Platform',
+    description: 'An end-to-end e-commerce analytics platform combining business analysis, data engineering, SQL, Python, and interactive dashboards.',
+    problem: 'Retail teams need a connected view of sales, customers, products, marketing, returns, and support to make better operational decisions.',
+    solution: 'Designed a business and data analysis workflow that turns historical retail data into customer segments, performance dashboards, and actionable recommendations.',
+    keyFeatures: [
+      'Sales, profitability, product, marketing, returns, and support analysis',
+      'RFM segmentation for customer value, churn, and retention insights',
+      'SQL and Python analytics with Power BI executive dashboards',
+      'Business recommendations grounded in measurable customer behavior'
+    ],
+    technologies: ['Python', 'Pandas', 'NumPy', 'SQL', 'MySQL', 'Power BI', 'DAX', 'Power Query'],
+    architecture: [
+      { step: 'Data Sources', description: 'Historical e-commerce data and new business records' },
+      { step: 'Data Engineering', description: 'SQL modeling, cleaning, validation, and reusable analytical tables' },
+      { step: 'Analysis', description: 'Python notebooks for EDA, RFM scoring, segmentation, and KPI analysis' },
+      { step: 'Decision Layer', description: 'Power BI dashboards and business recommendations for retail stakeholders' }
+    ],
+    challenges: [
+      'Connecting technical analysis to business questions across multiple retail domains',
+      'Presenting customer segmentation results clearly enough to support practical decisions'
+    ],
+    lessonsLearned: [
+      'Business context makes analytical metrics more useful than isolated charts',
+      'RFM segmentation provides a compact foundation for customer retention strategy'
+    ],
+    futureImprovements: [
+      'Add automated data refresh and scheduled KPI reporting',
+      'Expand predictive modeling for churn and demand forecasting'
+    ],
+    githubUrl: 'https://github.com/Adithya-Ekanayake/ShopSphere-360',
+    liveDemoUrl: 'https://client-xi-three-61.vercel.app',
+    year: 2026,
+    category: 'Data & Analytics',
+    featured: true,
+    imageBg: 'linear-gradient(135deg, #713F12 0%, #1C1917 100%)',
+    accentColor: '#F59E0B'
+  },
+  {
+    id: 'online-retail-analytics',
+    slug: 'online-retail-analytics',
+    title: 'Online Retail Analytics',
+    tagline: 'Python-Based Customer & Revenue Analysis',
+    description: 'An end-to-end analytics project exploring sales performance, customer behavior, RFM segmentation, and customer value using a UK retail dataset.',
+    problem: 'Raw transaction records make it difficult to see revenue patterns, customer value, and the groups most in need of retention efforts.',
+    solution: 'Cleaned and analyzed the UCI Online Retail dataset with Python notebooks, then translated the results into visualizations and business recommendations.',
+    keyFeatures: [
+      'Data cleaning and exploratory analysis of retail transactions',
+      'Revenue trends and customer purchasing behavior analysis',
+      'RFM scoring with Champions, Loyal, At Risk, New, and Inactive segments',
+      'Business-focused charts and recommendations for each customer group'
+    ],
+    technologies: ['Python', 'Pandas', 'NumPy', 'Matplotlib', 'Seaborn', 'Jupyter Notebook'],
+    architecture: [
+      { step: 'Dataset', description: 'UCI Online Retail transaction data from a UK-based retailer' },
+      { step: 'Preparation', description: 'Missing-value handling, date conversion, cancellation filtering, and revenue calculation' },
+      { step: 'Customer Analysis', description: 'RFM scoring and customer segmentation by behavior and value' },
+      { step: 'Visualization', description: 'Revenue trends, segment distributions, and customer value charts' }
+    ],
+    challenges: [
+      'Converting messy transaction records into reliable customer-level metrics',
+      'Turning analytical segments into recommendations that a business team can act on'
+    ],
+    lessonsLearned: [
+      'Customer segmentation reveals patterns hidden by overall sales totals',
+      'Clear visualizations help connect notebook analysis to business decisions'
+    ],
+    futureImprovements: [
+      'Add an interactive dashboard for filtering segments and periods',
+      'Introduce predictive churn and customer lifetime value models'
+    ],
+    githubUrl: 'https://github.com/Adithya-Ekanayake/Online-Retail-Analytics',
+    year: 2026,
+    category: 'Data & Analytics',
+    featured: true,
+    imageBg: 'linear-gradient(135deg, #14532D 0%, #052E16 100%)',
+    accentColor: '#4ADE80'
   }
 ];

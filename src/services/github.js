@@ -69,17 +69,13 @@ const FALLBACK_GITHUB_DATA = {
 
 export const fetchGitHubProfileData = async (username = GITHUB_USERNAME) => {
   try {
-    const [userRes, reposRes, contributedRepoRes] = await Promise.all([
+    const [userRes, reposRes] = await Promise.all([
       axios.get(`${API_BASE_URL}/users/${username}`, { timeout: 5000 }),
-      axios.get(`${API_BASE_URL}/users/${username}/repos?sort=updated&per_page=100`, { timeout: 5000 }),
-      axios.get(`${API_BASE_URL}/repos/kawshalya-k/EduConnect`, { timeout: 5000 })
+      axios.get(`${API_BASE_URL}/users/${username}/repos?sort=updated&per_page=100`, { timeout: 5000 })
     ]);
 
     const userData = userRes.data;
-    const reposData = [
-      ...(reposRes.data || []),
-      contributedRepoRes.data
-    ];
+    const reposData = reposRes.data || [];
 
     // Calculate total stars across public repos
     const totalStars = reposData.reduce((acc, repo) => acc + (repo.stargazers_count || 0), 0);
@@ -122,11 +118,6 @@ export const fetchGitHubProfileData = async (username = GITHUB_USERNAME) => {
         htmlUrl: userData.html_url
       },
       repos: reposData
-        .sort((firstRepo, secondRepo) => {
-          const firstIsEduConnect = firstRepo.name.toLowerCase() === 'educonnect';
-          const secondIsEduConnect = secondRepo.name.toLowerCase() === 'educonnect';
-          return Number(secondIsEduConnect) - Number(firstIsEduConnect);
-        })
         .map((repo) => ({
           id: repo.id,
           name: repo.name,
