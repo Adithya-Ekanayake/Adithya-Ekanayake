@@ -10,14 +10,26 @@ import {
   FaGithub,
   FaFigma,
   FaCode,
-  FaBrain
+  FaBrain,
+  FaDatabase,
+  FaChartBar,
+  FaLock
 } from 'react-icons/fa';
 import {
   SiJavascript,
   SiExpress,
   SiMysql,
   SiVscodium,
-  SiPostman
+  SiPostman,
+  SiNextdotjs,
+  SiTypescript,
+  SiTailwindcss,
+  SiPrisma,
+  SiSqlite,
+  SiPython,
+  SiPandas,
+  SiNumpy,
+  SiJupyter
 } from 'react-icons/si';
 import './Skills.css';
 
@@ -29,18 +41,30 @@ const iconMap = {
   FaNodeJs: FaNodeJs,
   SiExpress: SiExpress,
   FaBrain: FaBrain,
+  FaDatabase: FaDatabase,
+  FaChartBar: FaChartBar,
+  FaLock: FaLock,
   SiMysql: SiMysql,
   FaGitAlt: FaGitAlt,
   FaGithub: FaGithub,
   SiVscodium: SiVscodium,
   FaFigma: FaFigma,
-  SiPostman: SiPostman
+  SiPostman: SiPostman,
+  SiNextdotjs: SiNextdotjs,
+  SiTypescript: SiTypescript,
+  SiTailwindcss: SiTailwindcss,
+  SiPrisma: SiPrisma,
+  SiSqlite: SiSqlite,
+  SiPython: SiPython,
+  SiPandas: SiPandas,
+  SiNumpy: SiNumpy,
+  SiJupyter: SiJupyter
 };
 
 export default function Skills() {
   const [activeCategory, setActiveCategory] = useState('All');
 
-  const categories = ['All', 'Frontend', 'Backend', 'AI & ML', 'Database', 'Tools'];
+  const categories = ['All', 'Frontend', 'Backend', 'AI & ML', 'Database', 'Data & Analytics', 'Tools'];
 
   const filteredSkills =
     activeCategory === 'All'
